@@ -1,0 +1,4 @@
+#!/bin/bash
+while IFS= read -r line; do
+  printf '%s\n' "$line" | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
+done
