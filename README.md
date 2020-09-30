@@ -1,4 +1,4 @@
-# urlscan
+# urlgrep
 Grep URLs from standard input.
 
 
@@ -7,8 +7,8 @@ Grep URLs from standard input.
 
 # Installation
 
-```
-git clone https://github.com/ritiksahni/urlscan.git
-cd urlscan/
-mv urlscan /usr/bin/
+```bash
+git clone https://github.com/ritiksahni/urlgrep.git
+cd urlgrep/
+sudo mv urlgrep /usr/bin/urlgrep
 ```
